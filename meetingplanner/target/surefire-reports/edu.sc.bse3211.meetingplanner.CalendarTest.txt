@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: edu.sc.bse3211.meetingplanner.CalendarTest
+-------------------------------------------------------------------------------
+Tests run: 31, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 0.157 s <<< FAILURE! - in edu.sc.bse3211.meetingplanner.CalendarTest
+testAddMeeting_nov31_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.011 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Nov 31 is pre-blocked but the conflict check skips 'Day does not exist' entries, allowing invalid bookings.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_nov31_isBlocked(CalendarTest.java:255)
+
+testAddMeeting_feb30_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Feb 30 is pre-blocked but the conflict check skips 'Day does not exist' entries, allowing invalid bookings.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_feb30_isBlocked(CalendarTest.java:239)
+
+testAddMeeting_sep31_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Sep 31 is pre-blocked but the conflict check skips 'Day does not exist' entries, allowing invalid bookings.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_sep31_isBlocked(CalendarTest.java:303)
+
+testAddMeeting_feb29_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Feb 29 is pre-blocked but addMeeting() skips 'Day does not exist' entries in its conflict check, allowing bookings on non-existent days.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_feb29_isBlocked(CalendarTest.java:222)
+
+testAddMeeting_jun31_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Jun 31 is pre-blocked but the conflict check skips 'Day does not exist' entries, allowing invalid bookings.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_jun31_isBlocked(CalendarTest.java:287)
+
+testAddMeeting_december_shouldSucceed(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 4 EXPOSED: December (month 12) is a valid month. checkTimes() uses >= 12 instead of > 12. Threw: Month does not exist.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_december_shouldSucceed(CalendarTest.java:80)
+
+testAddMeeting_apr31_isBlocked(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 3 EXPOSED: Apr 31 is pre-blocked but the conflict check skips 'Day does not exist' entries, allowing invalid bookings.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_apr31_isBlocked(CalendarTest.java:271)
+
+testAddMeeting_startEqualsEnd_shouldBeAllowed(edu.sc.bse3211.meetingplanner.CalendarTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: FAULT 5 EXPOSED: checkTimes() uses mStart >= mEnd which incorrectly rejects start==end. Threw: Meeting starts before it ends.
+	at edu.sc.bse3211.meetingplanner.CalendarTest.testAddMeeting_startEqualsEnd_shouldBeAllowed(CalendarTest.java:139)
+
