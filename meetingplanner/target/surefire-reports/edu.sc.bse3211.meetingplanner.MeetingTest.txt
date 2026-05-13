@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: edu.sc.bse3211.meetingplanner.MeetingTest
 -------------------------------------------------------------------------------
-Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s - in edu.sc.bse3211.meetingplanner.MeetingTest
+Tests run: 13, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.992 s - in edu.sc.bse3211.meetingplanner.MeetingTest

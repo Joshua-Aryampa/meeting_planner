@@ -1,12 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: edu.sc.bse3211.meetingplanner.PersonTest
 -------------------------------------------------------------------------------
-Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.013 s <<< FAILURE! - in edu.sc.bse3211.meetingplanner.PersonTest
+Tests run: 16, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.014 s <<< FAILURE! - in edu.sc.bse3211.meetingplanner.PersonTest
 testAddMeeting_vacationOnNonExistentDay_throws(edu.sc.bse3211.meetingplanner.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
 java.lang.AssertionError: SOURCE BUG EXPOSED: Feb 29 is pre-blocked but addMeeting skips 'Day does not exist' entries, allowing vacation on invalid days.
 	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_vacationOnNonExistentDay_throws(PersonTest.java:234)
 
-testAddMeeting_vacationConflictsWithExistingMeeting_throws(edu.sc.bse3211.meetingplanner.PersonTest)  Time elapsed: 0 s  <<< FAILURE!
+testAddMeeting_vacationConflictsWithExistingMeeting_throws(edu.sc.bse3211.meetingplanner.PersonTest)  Time elapsed: 0.001 s  <<< FAILURE!
 java.lang.AssertionError: SOURCE BUG EXPOSED: A vacation (0-23) that completely contains an existing meeting (9-11) was not detected as a conflict. The overlap check only tests start/end within range, not containment.
 	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_vacationConflictsWithExistingMeeting_throws(PersonTest.java:215)
 

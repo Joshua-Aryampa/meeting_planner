@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.sc.bse3211.meetingplanner.PersonTest" time="0.013" tests="16" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.sc.bse3211.meetingplanner.PersonTest" time="0.014" tests="16" errors="0" skipped="0" failures="2">
   <properties>
     <property name="java.specification.version" value="25"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner\target\test-classes;C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner\target\classes;C:\Users\ARYAMPA JOSHUA\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ARYAMPA JOSHUA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner\target\test-classes;C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner\target\classes;C:\Users\ARYAMPA JOSHUA\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ARYAMPA JOSHUA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\ARYAMP~1\AppData\Local\Temp\surefire5408384517616335305\surefirebooter11963964849191650024.jar C:\Users\ARYAMPA JOSHUA\AppData\Local\Temp\surefire5408384517616335305 2026-05-03T16-20-30_982-jvmRun1 surefire15309194621428873490tmp surefire_03183130206559888807tmp"/>
+    <property name="sun.java.command" value="C:\Users\ARYAMP~1\AppData\Local\Temp\surefire10381323788131180669\surefirebooter5467541970919881167.jar C:\Users\ARYAMPA JOSHUA\AppData\Local\Temp\surefire10381323788131180669 2026-05-05T17-19-28_080-jvmRun1 surefire9577825087462904322tmp surefire_015502343616312813478tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner\target\test-classes;C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner\target\classes;C:\Users\ARYAMPA JOSHUA\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ARYAMPA JOSHUA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner\target\test-classes;C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner\target\classes;C:\Users\ARYAMPA JOSHUA\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ARYAMPA JOSHUA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ARYAMPA JOSHUA"/>
     <property name="user.language" value="en"/>
@@ -25,12 +25,12 @@
     <property name="java.version.date" value="2026-04-21"/>
     <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner"/>
+    <property name="basedir" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ARYAMP~1\AppData\Local\Temp\surefire5408384517616335305\surefirebooter11963964849191650024.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ARYAMP~1\AppData\Local\Temp\surefire10381323788131180669\surefirebooter5467541970919881167.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.3+9-LTS"/>
@@ -46,12 +46,12 @@
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
     <property name="java.io.tmpdir" value="C:\Users\ARYAMP~1\AppData\Local\Temp\"/>
     <property name="java.version" value="25.0.3"/>
-    <property name="user.dir" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\meetingplanner\meetingplanner"/>
+    <property name="user.dir" value="C:\Users\ARYAMPA JOSHUA\Desktop\Files\zipping\Unit Testing Exercise-20260502\GROUP M TESTING CW2\meetingplanner\meetingplanner"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\ARYAMPA JOSHUA\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Apache\apache-maven-3.9.15\bin;C:\Users\ARYAMPA JOSHUA\.local\bin;C:\Users\ARYAMPA JOSHUA\AppData\Local\Microsoft\WindowsApps;C:\Users\ARYAMPA JOSHUA\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\ARYAMPA JOSHUA\AppData\Local\Programs\Microsoft VS Code;C:\Program Files\Eclipse Adoptium\jdk-25.0.3.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Apache\apache-maven-3.9.15\bin;C:\Program Files\Git\cmd;C:\Users\ARYAMPA JOSHUA\AppData\Local\Python\bin;C:\Users\ARYAMPA JOSHUA\.local\bin;C:\Users\ARYAMPA JOSHUA\AppData\Local\Microsoft\WindowsApps;C:\Users\ARYAMPA JOSHUA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\ARYAMPA JOSHUA\AppData\Local\Python\bin;c:\Users\ARYAMPA JOSHUA\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="stderr.encoding" value="Cp1252"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
@@ -65,20 +65,20 @@
 	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_vacationOnNonExistentDay_throws(PersonTest.java:234)
 </failure>
   </testcase>
-  <testcase name="testDefaultConstructor_emptyName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testDefaultConstructor_emptyName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
   <testcase name="testIsBusy_afterAddMeeting_returnsTrue" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
   <testcase name="testAddMeeting_singleDayVacation_blocksDay" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testPrintAgenda_month_returnsString" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testPrintAgenda_month_returnsString" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
   <testcase name="testRemoveMeeting_meetingIsRemoved" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
   <testcase name="testAddMeeting_invalidMonth_throwsException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testConstructor_storesName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
+  <testcase name="testConstructor_storesName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
   <testcase name="testAddMeeting_conflict_throwsWithPersonName" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
   <testcase name="testGetMeeting_retrievesCorrectMeeting" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
   <testcase name="testAddMeeting_validMeeting_noException" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testPrintAgenda_day_returnsString" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testTwoPeople_independentCalendars" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testIsBusy_nothingBooked_returnsFalse" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0"/>
-  <testcase name="testAddMeeting_vacationConflictsWithExistingMeeting_throws" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0">
+  <testcase name="testPrintAgenda_day_returnsString" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testTwoPeople_independentCalendars" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.002"/>
+  <testcase name="testIsBusy_nothingBooked_returnsFalse" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001"/>
+  <testcase name="testAddMeeting_vacationConflictsWithExistingMeeting_throws" classname="edu.sc.bse3211.meetingplanner.PersonTest" time="0.001">
     <failure message="SOURCE BUG EXPOSED: A vacation (0-23) that completely contains an existing meeting (9-11) was not detected as a conflict. The overlap check only tests start/end within range, not containment." type="java.lang.AssertionError">java.lang.AssertionError: SOURCE BUG EXPOSED: A vacation (0-23) that completely contains an existing meeting (9-11) was not detected as a conflict. The overlap check only tests start/end within range, not containment.
 	at edu.sc.bse3211.meetingplanner.PersonTest.testAddMeeting_vacationConflictsWithExistingMeeting_throws(PersonTest.java:215)
 </failure>
